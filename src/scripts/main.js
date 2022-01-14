@@ -10,10 +10,9 @@ console.log(asparagusSeed)
 
 import { createPotato } from './seeds/potato.js'
 import { addPlant, usePlants } from './field.js'
+import { plantSeeds } from './tractor.js'
 
-const potatoSeed = createPotato()
-addPlant(potatoSeed)
-const plantArray = usePlants()
-console.log(plantArray)
 
+plantSeeds(yearlyPlan)
+console.log(usePlants())
 
